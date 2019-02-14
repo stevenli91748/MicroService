@@ -13,3 +13,4 @@
 * [微服务架构如何保障双11狂欢下的99.99%高可用？--石杉的架构笔记](https://mp.weixin.qq.com/s/lBeQSSPX7OeWO6SmWYf1Mg)
 * [Spring Cloud微服务架构的生产实践与性能优化！--石杉的架构笔记](https://mp.weixin.qq.com/s/FhspnvbIl71uIZ61K8cUoA)
 * [微服务架构之技术选型及架构设计](https://blog.csdn.net/luzhangtong/article/details/81147603)
+* [基于OpenResty和Node.js的微服务架构实践](https://www.getui.com/cn/industry/2017/05/050376.html)

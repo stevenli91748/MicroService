@@ -3,7 +3,7 @@
 # 目录
 
 * [微服务概述](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%A6%82%E8%BF%B0.md) 
-* [Dubbo](https://github.com/stevenli91748/MicroService/blob/master/Dubbo.md)
+* [Dubbo](https://github.com/stevenli91748/MicroService/blob/master/Dubbo/README.md)
 * [容器化部署Docker](https://github.com/stevenli91748/Engineering-special/blob/master/Docker/README.md)
 * [自动化构建Jenkins](https://github.com/stevenli91748/Engineering-special/blob/master/Jenkins/README.md)
 

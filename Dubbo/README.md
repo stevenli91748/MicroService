@@ -22,3 +22,4 @@ Dubbo是一套微服务系统的协调者，在它这套体系中，一共有三
 * [Dubbo-从入门到深入](http://ifeve.com/dubbo-learn-book/)
 * [Springboot 整合 Dubbo/ZooKeeper 详解 SOA 案例](http://ifeve.com/springboot-%E6%95%B4%E5%90%88-dubbozookeeper-%E8%AF%A6%E8%A7%A3-soa-%E6%A1%88%E4%BE%8B/)
 * [Dubbo剖析-整体架构分析](http://ifeve.com/dubbo-framework/)
+* [Dubbo入门---搭建一个最简单的Demo框架](https://blog.csdn.net/noaman_wgs/article/details/70214612)

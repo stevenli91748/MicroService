@@ -20,3 +20,4 @@
 * [微服务架构之技术选型及架构设计](https://blog.csdn.net/luzhangtong/article/details/81147603)
 * [基于OpenResty和Node.js的微服务架构实践](https://www.getui.com/cn/industry/2017/05/050376.html)
 * [自建电商平台分布式微服务架构--服务治理、服务隔离](https://blog.csdn.net/chengyun19830206/article/details/82530776)
+* [Building Microservices: Using an API Gateway](https://www.nginx.com/blog/building-microservices-using-an-api-gateway/)

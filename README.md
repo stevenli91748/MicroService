@@ -22,3 +22,4 @@
 * [自建电商平台分布式微服务架构--服务治理、服务隔离](https://blog.csdn.net/chengyun19830206/article/details/82530776)
 * [Building Microservices: Using an API Gateway](https://www.nginx.com/blog/building-microservices-using-an-api-gateway/)
 * [使用API网关构建微服务--实际例子](https://cloud.tencent.com/developer/article/1032069?fromSource=waitui)
+* [微服务架构中的进程间通信](https://cloud.tencent.com/developer/article/1032067)

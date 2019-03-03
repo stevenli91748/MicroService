@@ -25,3 +25,4 @@
 * [微服务架构中的进程间通信](https://cloud.tencent.com/developer/article/1032067)
 * [《微服务》九大特性](http://blog.didispace.com/20160917-microservices-note/)
 * [微网关与服务啮合](http://blog.didispace.com/microgateway-and-service-mesh/)
+* [那些没说出口的研发之痛，做与不做微服务的几大理由](http://blog.didispace.com/choose-microservices-or-monoliths-reasons/)

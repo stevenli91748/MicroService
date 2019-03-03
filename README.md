@@ -24,3 +24,4 @@
 * [使用API网关构建微服务--实际例子](https://cloud.tencent.com/developer/article/1032069?fromSource=waitui)
 * [微服务架构中的进程间通信](https://cloud.tencent.com/developer/article/1032067)
 * [《微服务》九大特性](http://blog.didispace.com/20160917-microservices-note/)
+* [微网关与服务啮合](http://blog.didispace.com/microgateway-and-service-mesh/)

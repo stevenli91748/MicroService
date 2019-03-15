@@ -32,3 +32,4 @@
 * [《微服务》九大特性](http://blog.didispace.com/20160917-microservices-note/)
 * [微网关与服务啮合](http://blog.didispace.com/microgateway-and-service-mesh/)
 * [那些没说出口的研发之痛，做与不做微服务的几大理由](http://blog.didispace.com/choose-microservices-or-monoliths-reasons/)
+* [手把手0基础项目实战（一）——教你搭建一套可自动化构建的微服务框架](https://juejin.im/post/5a97fbb46fb9a028b5475043)

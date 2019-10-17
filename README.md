@@ -24,6 +24,11 @@
 * [自动化构建Jenkins](https://github.com/stevenli91748/Engineering-special/blob/master/Jenkins/README.md)
 
 
+# 微服务视频
+
+  * [Java高级架构师课程全套学习视频（2000分钟干货讲解](https://www.bilibili.com/video/av62954343/?spm_id_from=333.788.videocard.1)
+
+
 # 有用的参考
   * 架构解密.从分布式到微服务.pdf
 

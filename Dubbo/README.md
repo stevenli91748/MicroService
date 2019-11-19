@@ -19,6 +19,11 @@ Dubbo是一套微服务系统的协调者，在它这套体系中，一共有三
 
 
 
+# 视频
+
+* [尚硅谷Java视频教程_Dubbo](https://www.bilibili.com/video/av30612478?from=search&seid=11334929433863206245)
+
+
 # 有用的参考
 
 * [Dubbo-从入门到深入](http://ifeve.com/dubbo-learn-book/)

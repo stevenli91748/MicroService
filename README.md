@@ -25,7 +25,7 @@
 
 
 # 微服务视频
-
+  * [微服务架构需要解决的问题](https://www.bilibili.com/video/av65833021)
   * [Java高级架构师课程全套学习视频（2000分钟干货讲解](https://www.bilibili.com/video/av62954343/?spm_id_from=333.788.videocard.1)
   * [尚学堂丨微服务架构阶段全套教程](https://www.bilibili.com/video/av47580663/?spm_id_from=333.788.videocard.0)
   * [Java微服务架构视频教程(Docker、Spring Boot、MyBatis)（上）](https://www.bilibili.com/video/av35881272/?spm_id_from=333.788.videocard.1)

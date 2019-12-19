@@ -28,7 +28,8 @@
 
   * [Java高级架构师课程全套学习视频（2000分钟干货讲解](https://www.bilibili.com/video/av62954343/?spm_id_from=333.788.videocard.1)
   * [尚学堂丨微服务架构阶段全套教程](https://www.bilibili.com/video/av47580663/?spm_id_from=333.788.videocard.0)
-
+  * [Java微服务架构视频教程(Docker、Spring Boot、MyBatis)（上）](https://www.bilibili.com/video/av35881272/?spm_id_from=333.788.videocard.1)
+  * [Java微服务架构视频教程(Docker、Spring Boot、MyBatis)（下）](https://www.bilibili.com/video/av35881732/?spm_id_from=333.788.videocard.4)
 # 有用的参考
   * 架构解密.从分布式到微服务.pdf
 

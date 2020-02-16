@@ -25,6 +25,7 @@
 
 
 # 微服务视频
+  * [Dubbo+zookeeper+SpringBoot+Redis+MQ微服务架构实战开发](https://www.bilibili.com/video/av68559539/?spm_id_from=333.788.videocard.3)
   * [基于SpringCloud构建微服务电商项目](https://www.bilibili.com/video/av64134293/?spm_id_from=333.788.videocard.1)
   * [基于微服务的秒杀项目实战](https://www.bilibili.com/video/av39729418?from=search&seid=5921434574097814719)
   * [千锋Java【2019Java微服务架构(SpringBoot+Dubbo+Zookeeper](https://www.bilibili.com/video/av46149892?from=search&seid=11436815724766326537)

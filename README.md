@@ -68,3 +68,12 @@
 * [手把手0基础项目实战（一）——教你搭建一套可自动化构建的微服务框架](https://juejin.im/post/5a97fbb46fb9a028b5475043)
 * [从单体架构升级到微服务，在代码层面应注意的一些问题](https://www.javazhiyin.com/40420.html)
 * [一文详解微服务架构](https://www.javazhiyin.com/42246.html)
+
+* [从零开始搭建一套微服务框架（一）方案制定](https://blog.csdn.net/kris1122/article/details/87717563?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+* [从零开始搭建一套微服务框架（二）搭建微服务调度中心Zookeeper](https://blog.csdn.net/kris1122/article/details/88290122?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+* [从零开始搭建一套微服务框架（三）搭建项目框架](https://blog.csdn.net/kris1122/article/details/88311015?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+* [从零开始搭建一套微服务框架（四）集成hystrix](https://blog.csdn.net/kris1122/article/details/88351343?depth_1-utm_source=distribute.pc_relevant_right.none-task&utm_source=distribute.pc_relevant_right.none-task)
+* [从零开始搭建一套微服务框架（五）集成nacos](https://blog.csdn.net/kris1122/article/details/88547450?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+* [从零开始搭建一套微服务框架（六）集成fescar](https://blog.csdn.net/kris1122/article/details/88554452?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+
+

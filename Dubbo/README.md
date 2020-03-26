@@ -33,3 +33,4 @@ Dubbo是一套微服务系统的协调者，在它这套体系中，一共有三
 * [比较spring cloud和dubbo，各自的优缺点是什么](https://blog.csdn.net/u010664947/article/details/80007767)
 * [为什么要用dubbo，dubbo和zookeeper关系，简单的dubbo搭建](https://blog.csdn.net/u013206293/article/details/79643588)
 * [2019最详细Dubbo相关面试题！](https://zhuanlan.zhihu.com/p/65193437)
+* [dubbo面试题！会这些，说明你真正看懂了dubbo源码](https://mp.weixin.qq.com/s?__biz=MzA5NTUzNTA2Mw==&mid=2454932968&idx=1&sn=f85707232789cbb41c2bebffcb67507b&scene=21#wechat_redirect)

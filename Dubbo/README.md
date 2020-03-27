@@ -34,3 +34,4 @@ Dubbo是一套微服务系统的协调者，在它这套体系中，一共有三
 * [为什么要用dubbo，dubbo和zookeeper关系，简单的dubbo搭建](https://blog.csdn.net/u013206293/article/details/79643588)
 * [2019最详细Dubbo相关面试题！](https://zhuanlan.zhihu.com/p/65193437)
 * [dubbo面试题！会这些，说明你真正看懂了dubbo源码](https://mp.weixin.qq.com/s?__biz=MzA5NTUzNTA2Mw==&mid=2454932968&idx=1&sn=f85707232789cbb41c2bebffcb67507b&scene=21#wechat_redirect)
+* [Java分布式开发不得不知的Dubbo技术详细介绍](https://blog.csdn.net/u011277123/article/details/78081798?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522158527005719195239834846%2522%252C%2522scm%2522%253A%252220140713.130056874..%2522%257D&request_id=158527005719195239834846&biz_id=0&utm_source=distribute.pc_search_result.none-task)

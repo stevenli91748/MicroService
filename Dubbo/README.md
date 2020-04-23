@@ -23,7 +23,7 @@ Dubbo是一套微服务系统的协调者，在它这套体系中，一共有三
 
 * [尚硅谷Java视频教程_Dubbo](https://www.bilibili.com/video/av30612478?from=search&seid=11334929433863206245)
 * [微服务架构需要解决的问题--Dubbo](https://www.bilibili.com/video/av65833021?p=13)
-
+* [2小时实战Apache顶级项目-RPC框架Dubbo分布式服务调度](https://www.imooc.com/learn/1096)
 # 有用的参考
 * [Dubbo面试题（2020最新版）](https://blog.csdn.net/ThinkWon/article/details/104390006)
 * [Dubbo-从入门到深入](http://ifeve.com/dubbo-learn-book/)

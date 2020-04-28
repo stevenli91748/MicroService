@@ -2,6 +2,10 @@
 
 # 目录
 
+# 一个微服务的例子
+
+<a href="https://ibb.co/3pm6X2T"><img src="https://i.ibb.co/x1q9vW2/image.png" alt="image" border="0"></a>
+
 
 
 * [几种常见的微服务架构方案]()

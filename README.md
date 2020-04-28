@@ -44,6 +44,7 @@
   * [微服务架构的分布式事务控制解决方案](https://www.bilibili.com/video/av82804614?from=search&seid=2930700588961193916)
   
 # 有用的参考
+ * [对微服务和RESTful的理解](https://blog.csdn.net/maoyeqiu/article/details/70917550)
  * [微服务调用链追踪中心搭建](https://mp.weixin.qq.com/s?__biz=MzU4ODI1MjA3NQ==&mid=2247483764&idx=1&sn=964629a4e1d42d84047986529376eb28&chksm=fdded7b0caa95ea6a038c623f8813c239e3c6cf87a6cd3818277369f6c287a6833d7826b9bdd&scene=21#wechat_redirect)
   * 架构解密.从分布式到微服务.pdf
  * [0基础教你搭建一套可自动化构建的微服务框架](https://blog.csdn.net/u010425776/article/details/79240104?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)

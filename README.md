@@ -46,6 +46,7 @@
 
 
 # 微服务视频
+ * [微服务实施的最佳实践、一致性、压测、容量评估、调用链一网打尽](https://www.youtube.com/watch?v=9DDGZnaQfwc)
   * [2020年最全微服务架构教程全集](https://www.bilibili.com/video/av81820341/?spm_id_from=333.788.videocard.6)
   * [Dubbo+zookeeper+SpringBoot+Redis+MQ微服务架构实战开发](https://www.bilibili.com/video/av68559539/?spm_id_from=333.788.videocard.3)
   * [基于SpringCloud构建微服务电商项目](https://www.bilibili.com/video/av64134293/?spm_id_from=333.788.videocard.1)

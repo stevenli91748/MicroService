@@ -35,3 +35,5 @@ API
 ## IDL⽂件⽅式
 
     IDL⽂件⽅式通常⽤作Thrift和gRPC这类跨语⾔服务调⽤框架中，⽐如gRPC就是通过Protobuf⽂件来定义服务的接⼝名、参数以及返回值的数据结构，
+    IDL就是接⼝描述语⾔（interface description language）的缩写，通过⼀种中⽴的⽅式来描述接⼝，使得在不同的平台上运⾏的对象和不同语⾔编写的程
+    序可以相互通信交流

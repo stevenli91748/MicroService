@@ -18,7 +18,7 @@
     * [服务化拆分的两种姿势](#服务化拆分的两种姿势)
     * [服务化拆分的前置条件](#服务化拆分的前置条件)
     * [引⼊微服务架构需要解决的问题](#引⼊微服务架构需要解决的问题)
-  * [正常的服务调⽤的流程  ](#正常的服务调⽤的流程)
+  * [正常的微服务调⽤的流程  ](#正常的服务调⽤的流程)
   * 微服务架构的组成部份
     * [服务描述](https://github.com/stevenli91748/MicroService/blob/master/%E6%9C%8D%E5%8A%A1%E6%8F%8F%E8%BF%B0/README.md)
     * [注册中心](https://github.com/stevenli91748/MicroService/blob/master/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/README.md)

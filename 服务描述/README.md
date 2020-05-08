@@ -16,11 +16,21 @@
 
 ## RESTful API⽅式
 
-    RESTful API⽅式通常⽤于HTTP协议的服务描述，并且常⽤Wiki或者Swagger来进⾏管理。
+    RESTful API⽅式通常⽤于HTTP协议的服务描述，并且常⽤Wiki或者Swagger来进⾏管理。主要被⽤作HTTP或者HTTPS协议的接⼝定义
+    服务提供者这⼀端通过部署代码到Tomcat中，并配置Tomcat中如下的web.xml，就可以通过servlet的⽅式对外提供RESTful
+API
     
 ## XML配置⽅式
 
     XML配置⽅式多⽤作RPC协议的服务描述，通过*.xml配置⽂件来定义接⼝名、参数以及返回值类型等
+    
+    接下来再来给你讲下XML配置⽅式，这种⽅式的服务发布和引⽤主要分三个步骤：
+    
+    服务提供者定义接⼝，并实现接⼝。
+    
+    服务提供者进程启动时，通过加载server.xml配置⽂件将接⼝暴露出去。
+    
+    服务消费者进程启动时，通过加载client.xml配置⽂件来引⼊要调⽤的接⼝。
 
 ## IDL⽂件⽅式
 

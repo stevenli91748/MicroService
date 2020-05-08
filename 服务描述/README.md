@@ -16,6 +16,12 @@
 
 ## RESTful API⽅式
 
+    RESTful API⽅式通常⽤于HTTP协议的服务描述，并且常⽤Wiki或者Swagger来进⾏管理。
+    
 ## XML配置⽅式
 
+    XML配置⽅式多⽤作RPC协议的服务描述，通过*.xml配置⽂件来定义接⼝名、参数以及返回值类型等
+
 ## IDL⽂件⽅式
+
+    IDL⽂件⽅式通常⽤作Thrift和gRPC这类跨语⾔服务调⽤框架中，⽐如gRPC就是通过Protobuf⽂件来定义服务的接⼝名、参数以及返回值的数据结构，

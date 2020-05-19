@@ -18,7 +18,11 @@
 <a href="https://ibb.co/hHFB92C"><img src="https://i.ibb.co/5vhr4s2/05-17-12.png" alt="05-17-12" border="0"></a>    
     
     
-    RPC Server提供服务，在启动时，根据服务发布⽂件server.xml中的配置的信息，向Registry注册⾃身服务，并向Registry定期发送⼼跳汇报存活状态。RPC
-    Client调⽤服务，在启动时，根据服务引⽤⽂件client.xml中配置的信息，向Registry订阅服务，把Registry返回的服务节点列表缓存在本地内存中，并与
-    RPC Sever建⽴连接。当RPC Server节点发⽣变更时，Registry会同步变更，RPC Client感知后会刷新本地内存中缓存的服务节点列表。RPC Client从本地缓
-    存的服务节点列表中，基于负载均衡算法选择⼀台RPC Sever发起调⽤。
+    RPC Server提供服务，在启动时，根据服务发布⽂件server.xml中的配置的信息，向Registry注册⾃身服务，并向Registry定期发送⼼跳汇报存活状态。
+    
+    RPC Client调⽤服务，在启动时，根据服务引⽤⽂件client.xml中配置的信息，向Registry订阅服务，把Registry返回的服务节点列表缓存在本地内存中，并与
+    RPC Sever建⽴连接。
+    
+    当RPC Server节点发⽣变更时，Registry会同步变更，RPC Client感知后会刷新本地内存中缓存的服务节点列表。
+    
+    RPC Client从本地缓存的服务节点列表中，基于负载均衡算法选择⼀台RPC Sever发起调⽤。

@@ -24,10 +24,10 @@
     * [ 数据压缩采⽤什么格式](#数据压缩采⽤什么格式)
   * [RPC框架如何选型](#RPC框架如何选型)
     * 跟某种特定语⾔平台绑定的
-      * Dubbo
-      * Montan
-      * Tars
-      * Spring Cloud
+      * Dubbo---仅支持JAVA
+      * Montan---仅支持JAVA
+      * Tars---仅支持C++
+      * Spring Cloud---仅支持JAVA
     * 跨语⾔平台
       * [gRPC---Google于2015年对外开源的跨语⾔RPC框架，⽀持常⽤的C++、Java、Python、Go、Ruby、PHP、Android
 Java、Objective-C等多种语⾔](#gRPC)

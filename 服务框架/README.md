@@ -3,6 +3,8 @@
 * [RPC远程服务调⽤原理]()
   * [通信框架](#通信框架)
     * [客户端和服务端如何建⽴⽹络连接](#客户端和服务端如何建⽴⽹络连接)
+      * [HTTP通信](#HTTP通信)
+      * [Socket通信](#Socket通信)
     * [服务端如何处理请求？](#服务端如何处理请求？)
   * [通信胁议](#通信胁议)
     * [数据传输采⽤什么协议](#数据传输采⽤什么协议)
@@ -43,8 +45,30 @@
 ### 客户端和服务端如何建⽴⽹络连接
 
        就是说服务提供者和服务消费者之间以什么样的协议进⾏⽹络通信，是采⽤四层TCP、UDP协议，还是采⽤七层HTTP协议，还是采⽤其他协议？
-    
+
+客户端和服务端之间基于TCP协议建⽴⽹络连接最常⽤的途径有两种    
+
+#### HTTP通信
+
+     HTTP通信是基于应⽤层HTTP协议的，⽽HTTP协议⼜是基于传输层TCP协议的。⼀次HTTP通信过程就是发起⼀次HTTP调⽤，⽽⼀次HTTP调⽤就会建⽴⼀个TCP连
+     接，经历⼀次下图所示的“三次握⼿”的过程来建⽴连接。
+     
+#### Socket通信
+
+     Socket通信是基于TCP/IP协议的封装，建⽴⼀次Socket连接⾄少需要⼀对套接字，其中⼀个运⾏于客户端，称为ClientSocket；另⼀个运⾏于服务器端，称
+     为ServerSocket 。就像下图所描述的，Socket通信的过程分为四个步骤：服务器监听、客户端请求、连接确认、数据传输。
+     
+     服务器监听：ServerSocket通过调⽤bind()函数绑定某个具体端⼝，然后调⽤listen()函数实时监控⽹络状态，等待客户端的连接请求。
+
+     客户端请求：ClientSocket调⽤connect()函数向ServerSocket绑定的地址和端⼝发起连接请求。
+     
+     服务端连接确认：当ServerSocket监听到或者接收到ClientSocket的连接请求时，调⽤accept()函数响应ClientSocket的请求，同客户端建⽴连接。
+
+     数据传输：当ClientSocket和ServerSocket建⽴连接后，ClientSocket调⽤send()函数，ServerSocket调⽤receive()函数，ServerSocket处理完请求后，
+     调⽤send()函数，ClientSocket调⽤receive()函数，就可以得到得到返回结果。
+
 ### 服务端如何处理请求
+
 
 ## 通信胁议
 ### 数据传输采⽤什么协议

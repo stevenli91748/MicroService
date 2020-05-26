@@ -17,7 +17,7 @@
     * [调⽤拓扑图---主要⽤作全局监控，⽤于发现系统中异常的点]()
 * [服务追踪系统选型](#服务追踪系统选型)
   * [Zipkin---Twitter](#Zipkin)
-  * [Pinpoint](#Pinpoint)
+  * [Pinpoint---Pinpoint要⽐OpenZipkin精确得多](#Pinpoint)
   * [阿里的鹰眼](#阿里的鹰眼)
   * [美团的MTrace](#美团的MTrace等)
 

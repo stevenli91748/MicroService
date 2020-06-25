@@ -30,7 +30,11 @@
     * [服务跟踪---定位问题](https://github.com/stevenli91748/MicroService/blob/master/%E6%9C%8D%E5%8A%A1%E8%B7%9F%E8%B8%AA/README.md)
     * [服务治理---解决问题](https://github.com/stevenli91748/MicroService/blob/master/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/README.md)
 
-# 微服务设计主题
+# 微服务架构设计模式主题
+  * [链式设计模式](https://lh3.googleusercontent.com/U3WxwmMmdc2j3OdmyrJx1_29cA5vLGWXpohfiTLNOhebQbH449H744A9dAQCHkNC6-CgGTdid5QtyhzbIMDSc41KjSFu0Z1UFCbM_NnNmX42DMyMOH1ATBsOVI33G5yy3oGHv1Z2dYYDNWFsvU4ayV0JH9SNONazKucGcu3N2d2kz0UIwCIbz71FJwi4DzmJ11zVMx39gtbc5f4xlfel-gO0qm6GEu7-UOLwEfgXLcz2XVqBgESP9NSH1CcXGobvojVrFaTAY1BPZOxTcZ3H40fA-LFPtFFCQN9dPjmrVEMQqtWArhMvvzM_OuMFs8oI2R9TJ0WRv-hjW_hry6q-sIvYXb1bU3lKZx7B8LoYPWHv1bgrwpJaqjNLojbNOQrDfsPYUVUOzJ6DvqtfWAS8q1JOYqjxHob7qGo-3r5ntoDXtJ9cpN8C1pSb2C3q8GM1LaPavT8f65UOS-HRdModHw2gQmCH1TipoPjx4BGaxFJ0QZEsiC5gOwjj_cCp163OFbz29byogHciPsiVFx0Lcg0-Sxs9hVV6Z4eqH-Y0HXd4m6jEDTPU1Jj7dHdVY2RZF_j54UF3v8MKZSrrc3B0bw_Cm6chSYNJW21VedQtZV2zYJGh-WQ9ozjq_BCXWnXHje2xcKW6GlzjGToaFHI_wOxEOWhjcYhDwA6aRBbyIYntbHgK5M9-ulSmqXOB=w1024-h575-no?authuser=0)
+  * 聚合器设计模式(常用)
+  * 数据共享设计模式(常用)
+  * 异步消息设计模式(常用)
 
 # 微服务开发框架主题
   * 微服务网关
@@ -152,6 +156,12 @@
     
     ⽽且在服务的调⽤过程中，服务的请求耗时、调⽤量以及成功率等指标都会被记录下来⽤作监控，调⽤经过的链路信息会被记录下来，⽤于故障定位和问题追踪。
     在这期间，如果调⽤失败，可以通过重试等服务治理⼿段来保证成功率。
+
+
+
+
+
+
 
     
 ---

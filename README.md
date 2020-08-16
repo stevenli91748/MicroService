@@ -13,6 +13,9 @@
 [阿里架构师教你：如何快速搭建一个微服务架构](https://www.bilibili.com/video/BV1n4411K7yb/?spm_id_from=333.788.videocard.10)|[耦合到底意味着什么呢](https://zhuanlan.zhihu.com/p/105463736?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|
 ---|---|
 
+[云原生应用之路——从Kubernetes到Cloud Native](https://jimmysong.io/kubernetes-handbook/cloud-native/from-kubernetes-to-cloud-native.html)
+
+
 # 微服务理论主题
   * [单体应⽤和微服务各是什麽？](#单体应⽤和微服务各是什麽？)
   * 单体应⽤拆分成微服务的正确姿势

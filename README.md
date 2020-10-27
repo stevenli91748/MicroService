@@ -28,6 +28,8 @@
 * [Spring Cloud 微服务 (遇到的问题汇总）](https://www.jianshu.com/p/2e2820269dd2)
 
 
+* [AWS 上的项目：将整体式应用程序拆分为微服务（使用 Amazon Elastic Container Service、Docker 和 Amazon EC2）](https://aws.amazon.com/cn/getting-started/hands-on/break-monolith-app-microservices-ecs-docker-ec2/)
+
 # 微服务理论主题
 
   * [单体应⽤和微服务各是什麽？](#单体应⽤和微服务各是什麽？)

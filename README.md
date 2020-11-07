@@ -16,6 +16,11 @@
 [云原生应用之路——从Kubernetes到Cloud Native](https://jimmysong.io/kubernetes-handbook/cloud-native/from-kubernetes-to-cloud-native.html)|
 ---|
 
+[【项目实战】微服务多租户系统后台管理系统---基于SpringBoot2.x、SpringCloud和SpringCloudAlibaba并采用前后端分离的企业级微服务多租户系统架构](https://gitee.com/zlt2000/microservices-platform)|
+---|
+
+
+
 # 微服务例子程序
 * [Microservice Architecture with Spring Boot, Spring Cloud and Docker 例子程序](https://github.com/sqshq/piggymetrics 'This is a tutorial project, which demonstrates Microservice Architecture Pattern using Spring Boot, Spring Cloud and Docker')
  

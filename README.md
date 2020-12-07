@@ -19,6 +19,8 @@
 [【项目实战】微服务多租户系统后台管理系统---基于SpringBoot2.x、SpringCloud和SpringCloudAlibaba并采用前后端分离的企业级微服务多租户系统架构](https://gitee.com/zlt2000/microservices-platform)|
 ---|
 
+[手摸手教你从开发到部署(CI/CD)GO微服务系列 ](https://learnku.com/docs/go-micro-build/1.0)|
+---|
 
 
 # 微服务例子程序

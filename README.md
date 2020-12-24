@@ -13,8 +13,8 @@
 [阿里架构师教你：如何快速搭建一个微服务架构](https://www.bilibili.com/video/BV1n4411K7yb/?spm_id_from=333.788.videocard.10)|[耦合到底意味着什么呢](https://zhuanlan.zhihu.com/p/105463736?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|
 ---|---|
 
-[云原生应用之路——从Kubernetes到Cloud Native](https://jimmysong.io/kubernetes-handbook/cloud-native/from-kubernetes-to-cloud-native.html)|
----|
+[云原生应用之路——从Kubernetes到Cloud Native](https://jimmysong.io/kubernetes-handbook/cloud-native/from-kubernetes-to-cloud-native.html)|[流量暴增，掌门教育如何基于 Spring Cloud Alibaba 构建微服务体系](https://www.kubernetes.org.cn/8373.html)|
+---|---|
 
 [【项目实战】微服务多租户系统后台管理系统---基于SpringBoot2.x、SpringCloud和SpringCloudAlibaba并采用前后端分离的企业级微服务多租户系统架构](https://gitee.com/zlt2000/microservices-platform)|
 ---|

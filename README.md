@@ -239,6 +239,7 @@
   * [微服务架构的分布式事务控制解决方案](https://www.bilibili.com/video/av82804614?from=search&seid=2930700588961193916)
   
 # 有用的参考
+ * [微服务应用性能如何？APM监控工具来告诉你！](https://www.jianshu.com/p/6f8072a2a349)
  * [微服务调用为啥用RPC框架，http不更简单吗](https://zhuanlan.zhihu.com/p/61364466)
  * [微服务之间的最佳调用方式](https://zhuanlan.zhihu.com/p/105463736?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)
  * [烟囱式到SOA再到微服务](https://www.jianshu.com/p/a095c59baf31)

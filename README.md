@@ -55,7 +55,7 @@
 数据流操作开发包|	SpringCloud Stream(封装与Redis，Rabbit，Kafka等发送接收消息)|
 时间消息总栈|	SpringCloud Bus|
 服务部署|	Docker、OpenStack、Kubernetes等|
-
+---|---|
 
 [阿里架构师教你：如何快速搭建一个微服务架构](https://www.bilibili.com/video/BV1n4411K7yb/?spm_id_from=333.788.videocard.10)|[耦合到底意味着什么呢](https://zhuanlan.zhihu.com/p/105463736?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|
 ---|---|

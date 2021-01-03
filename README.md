@@ -9,6 +9,53 @@
 
 ### 微服务的关注点在能力分治，将同类型的能力聚集在一个应用中，做到功能解耦，分别演化。这里涉及到两个点：微服务内部组件间如何调用 & 微服务整体如何对外提供服务。成熟方案是通过微服务框架（如SpringCloud）的功能组件完成，如前者属于服务治理和发现（Eureka），后者通过网关（gateway）
 
+   微服务架构4个核心问题？
+    1. 服务很多，客户端怎么访问？
+    2. 这么多服务？服务之间如何通信？
+    3. 这么多服务？如何治理
+    4. 服务挂了怎么办？
+
+   微服务架构解决方案：
+    SpringCloud，是一套生态，就是解决以上分布架构的4个问题, 想使用SpringCloud，必须掌握SpringBoot，因为SpringCloud是基于SpringBoot；
+
+     1. Spring Cloud Netflix，出来了一套解决方案:
+     
+        Api网关，zuul组件
+        Feign--->HttpClient--->HTTP的通信方式，同步并阻塞
+        服务注册与发现，Eureka
+        熔断机制，Hystrix
+
+        2018年年底，Netflix宣布无限期停止维护。生态不再维护，就会脱节。
+
+    2. Apache Dubbo zookeeper，第二套解决系统
+        Api：没有！要么找第三方插件，要么自己实现
+        Dubbo是一个高性能的基于Java实现的，RPC通信框架！
+        服务注册与发现，zookeeper：动物园管理者（Hadoop，Hive）
+        没有：借助了Hystrix
+
+        不完善，Dubbo
+
+    3. SpringCloud Alibaba 一站式解决方案	
+
+微服务技术栈有那些？
+---|---|
+微服务技术条目|	落地技术|
+服务开发|	SpringBoot、Spring、SpringMVC等|
+服务配置与管理|	Netfix公司的Archaius、阿里的Diamond等|
+服务注册与发现|	Eureka、Consul、Zookeeper等|
+服务调用|	Rest、PRC、gRPC|
+服务熔断器|	Hystrix、Envoy等|
+负载均衡|	Ribbon、Nginx等|
+服务接口调用(客户端调用服务的简化工具)|	Fegin等|
+消息队列|	Kafka、RabbitMQ、ActiveMQ等|
+服务配置中心管理|	SpringCloudConfig、Chef等|
+服务路由(API网关)|	Zuul等|
+服务监控|	Zabbix、Nagios、Metrics、Specatator等|
+全链路追踪|	Zipkin、Brave、Dapper等|
+数据流操作开发包|	SpringCloud Stream(封装与Redis，Rabbit，Kafka等发送接收消息)|
+时间消息总栈|	SpringCloud Bus|
+服务部署|	Docker、OpenStack、Kubernetes等|
+
 
 [阿里架构师教你：如何快速搭建一个微服务架构](https://www.bilibili.com/video/BV1n4411K7yb/?spm_id_from=333.788.videocard.10)|[耦合到底意味着什么呢](https://zhuanlan.zhihu.com/p/105463736?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|
 ---|---|

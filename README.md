@@ -56,7 +56,7 @@
 
 ### Dubbo 和 SpringCloud对比:
 
-|Dubbo |Spring Cloud|
+|item|Dubbo |Spring Cloud|
 ---|---|---|
 服务注册中心|	Zookeeper|	Spring Cloud Netfilx Eureka|
 服务调用方式|	RPC|	REST API|

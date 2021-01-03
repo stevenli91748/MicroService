@@ -9,13 +9,16 @@
 
 ### 微服务的关注点在能力分治，将同类型的能力聚集在一个应用中，做到功能解耦，分别演化。这里涉及到两个点：微服务内部组件间如何调用 & 微服务整体如何对外提供服务。成熟方案是通过微服务框架（如SpringCloud）的功能组件完成，如前者属于服务治理和发现（Eureka），后者通过网关（gateway）
 
-   微服务架构4个核心问题？
+
+# 微服务架构方案
+
+   微服务架构有4个核心问题？
     1. 服务很多，客户端怎么访问？
     2. 这么多服务？服务之间如何通信？
     3. 这么多服务？如何治理
     4. 服务挂了怎么办？
 
-   微服务架构解决方案：
+###  微服务架构解决方案：
     SpringCloud，是一套生态，就是解决以上分布架构的4个问题, 想使用SpringCloud，必须掌握SpringBoot，因为SpringCloud是基于SpringBoot；
 
      1. Spring Cloud Netflix，出来了一套解决方案:
@@ -36,28 +39,31 @@
         不完善，Dubbo
 
     3. SpringCloud Alibaba 一站式解决方案	
+    
+### 当前各大IT公司用的微服务架构有那些？
 
-微服务技术栈有那些？
+         阿里：dubbo+HFS
 
+         京东：JFS
 
-微服务技术条目|	落地技术|
----|---|
-服务开发|	SpringBoot、Spring、SpringMVC等|
-服务配置与管理|	Netfix公司的Archaius、阿里的Diamond等|
-服务注册与发现|	Eureka、Consul、Zookeeper等|
-服务调用|	Rest、PRC、gRPC|
-服务熔断器|	Hystrix、Envoy等|
-负载均衡|	Ribbon、Nginx等|
-服务接口调用(客户端调用服务的简化工具)|	Fegin等|
-消息队列|	Kafka、RabbitMQ、ActiveMQ等|
-服务配置中心管理|	SpringCloudConfig、Chef等|
-服务路由(API网关)|	Zuul等|
-服务监控|	Zabbix、Nagios、Metrics、Specatator等|
-全链路追踪|	Zipkin、Brave、Dapper等|
-数据流操作开发包|	SpringCloud Stream(封装与Redis，Rabbit，Kafka等发送接收消息)|
-时间消息总栈|	SpringCloud Bus|
-服务部署|	Docker、OpenStack、Kubernetes等|
----|---|
+         新浪：Motan
+
+         当当网：DubboX  
+
+### Dubbo 和 SpringCloud对比:
+
+|Dubbo |Spring Cloud|
+---|---|---|
+服务注册中心|	Zookeeper|	Spring Cloud Netfilx Eureka|
+服务调用方式|	RPC|	REST API|
+服务监控|	Dubbo-monitor|	Spring Boot Admin|
+断路器|	不完善|	Spring Cloud Netfilx Hystrix|
+服务网关|	无|	Spring Cloud Netfilx Zuul|
+分布式配置|	无|	Spring Cloud Config|
+服务跟踪|	无|	Spring Cloud Sleuth|
+消息总栈|	无|	Spring Cloud Bus|
+数据流|	无	|Spring Cloud Stream|
+批量任务|	无|	Spring Cloud Task|
 
 [阿里架构师教你：如何快速搭建一个微服务架构](https://www.bilibili.com/video/BV1n4411K7yb/?spm_id_from=333.788.videocard.10)|[耦合到底意味着什么呢](https://zhuanlan.zhihu.com/p/105463736?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|
 ---|---|
@@ -107,6 +113,27 @@
     * [服务跟踪---定位问题](https://github.com/stevenli91748/MicroService/blob/master/%E6%9C%8D%E5%8A%A1%E8%B7%9F%E8%B8%AA/README.md)
     * [服务治理---解决问题](https://github.com/stevenli91748/MicroService/blob/master/%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86/README.md)
 
+# 微服务技术栈有那些
+
+
+微服务技术条目|	落地技术|
+---|---|
+服务开发|	SpringBoot、Spring、SpringMVC等|
+服务配置与管理|	Netfix公司的Archaius、阿里的Diamond等|
+服务注册与发现|	Eureka、Consul、Zookeeper等|
+服务调用|	Rest、PRC、gRPC|
+服务熔断器|	Hystrix、Envoy等|
+负载均衡|	Ribbon、Nginx等|
+服务接口调用(客户端调用服务的简化工具)|	Fegin等|
+消息队列|	Kafka、RabbitMQ、ActiveMQ等|
+服务配置中心管理|	SpringCloudConfig、Chef等|
+服务路由(API网关)|	Zuul等|
+服务监控|	Zabbix、Nagios、Metrics、Specatator等|
+全链路追踪|	Zipkin、Brave、Dapper等|
+数据流操作开发包|	SpringCloud Stream(封装与Redis，Rabbit，Kafka等发送接收消息)|
+时间消息总栈|	SpringCloud Bus|
+服务部署|	Docker、OpenStack、Kubernetes等|
+---|---|
 
 
 # 微服务架构设计模式主题

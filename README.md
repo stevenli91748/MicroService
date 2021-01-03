@@ -38,8 +38,10 @@
     3. SpringCloud Alibaba 一站式解决方案	
 
 微服务技术栈有那些？
----|---|
+
+
 微服务技术条目|	落地技术|
+---|---|
 服务开发|	SpringBoot、Spring、SpringMVC等|
 服务配置与管理|	Netfix公司的Archaius、阿里的Diamond等|
 服务注册与发现|	Eureka、Consul、Zookeeper等|

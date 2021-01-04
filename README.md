@@ -56,6 +56,8 @@
 
 ### Dubbo 和 SpringCloud对比:
 
+**最大区别：Spring Cloud 抛弃了Dubbo的RPC通信，采用的是基于HTTP的REST方式**
+
 |item|Dubbo |Spring Cloud|
 ---|---|---|
 服务注册中心|	Zookeeper|	Spring Cloud Netfilx Eureka|

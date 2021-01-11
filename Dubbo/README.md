@@ -5,8 +5,8 @@
 * [Dubbo概述](#Dubbo概述)
 * [Dubbox概述](#Dubbox概述)
 
-[精尽 Dubbo 学习指南](http://svip.iocoder.cn/Dubbo/tutorials/)|
----|
+[精尽 Dubbo 学习指南](http://svip.iocoder.cn/Dubbo/tutorials/)|[Dubbo有些哪些注册中心？](https://blog.csdn.net/meism5/article/details/104290442?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-2&spm=1001.2101.3001.4242)|
+---|---|
 
 [相较于 Dubbo，Spring Cloud 有何优缺点？](https://www.zhihu.com/question/50806354/answer/1099399169)|[Dubbo 的 8000 字图文详解](https://zhuanlan.zhihu.com/p/140472651?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|[阿里系Dubbo和Spring Cloud微服务架构，哪个比较好](https://zhuanlan.zhihu.com/p/176422784?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|
 ---|---|---|

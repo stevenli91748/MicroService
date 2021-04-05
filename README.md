@@ -75,6 +75,9 @@
 数据流|	无	|Spring Cloud Stream|
 批量任务|	无|	Spring Cloud Task|
 
+[Java架构：一文读懂微服务架构的重构策略](https://developer.51cto.com/art/201905/597080.htm)|
+---|
+
 [阿里架构师教你：如何快速搭建一个微服务架构](https://www.bilibili.com/video/BV1n4411K7yb/?spm_id_from=333.788.videocard.10)|[耦合到底意味着什么呢](https://zhuanlan.zhihu.com/p/105463736?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|
 ---|---|
 

@@ -58,6 +58,8 @@ Dubbox = Dubbo + REST
 * [微服务架构需要解决的问题--Dubbo](https://www.bilibili.com/video/av65833021?p=13)
 * [2小时实战Apache顶级项目-RPC框架Dubbo分布式服务调度](https://www.imooc.com/learn/1096)
 # 有用的参考
+
+* [微服务面试必问的Dubbo，这么详细还怕自己找不到工作](https://server.51cto.com/Micro-652532.htm)
 * [Dubbo面试题（2020最新版）](https://blog.csdn.net/ThinkWon/article/details/104390006)
 * [Dubbo-从入门到深入](http://ifeve.com/dubbo-learn-book/)
 * [Springboot 整合 Dubbo/ZooKeeper 详解 SOA 案例](http://ifeve.com/springboot-%E6%95%B4%E5%90%88-dubbozookeeper-%E8%AF%A6%E8%A7%A3-soa-%E6%A1%88%E4%BE%8B/)

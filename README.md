@@ -62,7 +62,7 @@
 
 **最大区别：Spring Cloud 抛弃了Dubbo的RPC通信，采用的是基于HTTP的REST方式**
 
-|item|Dubbo |Spring Cloud|
+item|Dubbo |Spring Cloud|
 ---|---|---|
 服务注册中心|	Zookeeper|	Spring Cloud Netfilx Eureka|
 服务调用方式|	RPC|	REST API|

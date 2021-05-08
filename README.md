@@ -11,6 +11,8 @@
 
 # [15种微服务架构框架汇总](http://dockerone.com/article/9892)
 # [Top 10 Microservices frameworks for 2020](https://medium.com/microservices-architecture/top-10-microservices-framework-for-2020-eefb5e66d1a2)
+# [基于SpringCloud微服务系统设计,5万字总结！](https://segmentfault.com/a/1190000039889988)
+# []()
 
 # 微服务架构方案
 

@@ -23,7 +23,7 @@
 
 ## 微服务架构方案实现方式
 
-
+微服务架构包括微服务外部通信和微服务内部通信：
 
 有很多实现微服务外部通信的方式。最通用最流行的三个方式是:
 
@@ -33,7 +33,10 @@
   * [3 中心化的消息](#3-中心化的消息微服务架构方案实现方式)
 * [微服务内部通信的架构方案](#微服务内部通信的架构方案)
   * [1 基于HTTP协议的同步机制（REST、RPC）](#1-基于HTTP协议的同步机制)
+    * [Dubbo](https://github.com/stevenli91748/MicroService/blob/master/Dubbo/README.md)
   * [2 基于消息队列的异步消息处理机制（AMQP-based message broker）](#2-基于消息队列的异步消息处理机制)
+    * [kafka](https://github.com/stevenli91748/Message-Server-System/tree/master/Kafka)
+    * [RabbitMQ]()
 
 ## 微服务外部通信的架构方案
 

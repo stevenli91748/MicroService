@@ -25,9 +25,13 @@
 
   有很多实现微服务的方式。最通用最流行的三个方式是:
 
- * API REST-based---API REST-based 适合网站提供小规模的，自包含的服务。很多互联网网站都提供这样的服务，比如OAuth2服务
+ * [API REST-based](#API-REST-based)---API REST-based 适合网站提供小规模的，自包含的服务。很多互联网网站都提供这样的服务，比如OAuth2服务
  * applicaiton REST-based
  * 中心化的消息
+
+### API REST-based
+### 
+
 
 ###  微服务架构解决方案：
     SpringCloud，是一套生态，就是解决以上分布架构的4个问题, 想使用SpringCloud，必须掌握SpringBoot，因为SpringCloud是基于SpringBoot；

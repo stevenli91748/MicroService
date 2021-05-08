@@ -30,8 +30,16 @@
  * [中心化的消息---它类似前面的模式，但是使用一个轻量级的消息broker取代RESTful的服务调用。这个轻量级的broker不会执行服务的编排，传输和路由，这和SOA不同，不要把它看作SOA的简化版](#中心化的消息微服务架构方案实现方式)
 
 ### API REST-based微服务架构方案实现方式
+
+<a href="https://ibb.co/1q2sk47"><img src="https://i.ibb.co/7Wygq0j/api-rest-based.png" alt="api-rest-based" border="0"></a>
+
 ### applicaiton REST-based微服务架构方案实现方式
+
+<a href="https://ibb.co/bdzPcPK"><img src="https://i.ibb.co/cTD141r/application-rest-base.png" alt="application-rest-base" border="0"></a>
+
 ### 中心化的消息微服务架构方案实现方式
+
+<a href="https://ibb.co/g6KPRcT"><img src="https://i.ibb.co/XVR3CGs/image.png" alt="image" border="0"></a>
 
 
 ###  微服务架构解决方案：

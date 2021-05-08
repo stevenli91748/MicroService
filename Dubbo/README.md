@@ -5,8 +5,8 @@
 * [Dubbo概述](#Dubbo概述)
 * [Dubbox概述](#Dubbox概述)
 
-[精尽 Dubbo 学习指南](http://svip.iocoder.cn/Dubbo/tutorials/)|[Dubbo有些哪些注册中心？](https://blog.csdn.net/meism5/article/details/104290442?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-2&spm=1001.2101.3001.4242)|
----|---|
+[精尽 Dubbo 学习指南](http://svip.iocoder.cn/Dubbo/tutorials/)|[Dubbo有些哪些注册中心？](https://blog.csdn.net/meism5/article/details/104290442?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-2&spm=1001.2101.3001.4242)|[Dubbo官方网站](https://dubbo.apache.org/zh/)|
+---|---|---|
 
 [相较于 Dubbo，Spring Cloud 有何优缺点？](https://www.zhihu.com/question/50806354/answer/1099399169)|[Dubbo 的 8000 字图文详解](https://zhuanlan.zhihu.com/p/140472651?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|[阿里系Dubbo和Spring Cloud微服务架构，哪个比较好](https://zhuanlan.zhihu.com/p/176422784?utm_source=wechat_session&utm_medium=social&utm_oi=991812777480134656&utm_content=first)|
 ---|---|---|
@@ -31,6 +31,9 @@ Dubbo只针对服务治理，相当于Spring Cloud中的一个子集。能和Dub
 
 对于性能这块，Dubbo确实要比Spring Cloud好，原因大家也都清楚，Dubbo基于Netty的TCP及二进制的数据传输，Spring Cloud基于HTTP，HTTP每次都要创建连
 接，传输的也是文本内容，自然在性能上有些损耗
+
+Dubbo是阿里巴巴开源的分布式服务框架，属于同步调用，当一个系统的服务太多时，需要一个注册中心来处理服务发现问题，例如使用ZooKeeper这类配置服务器进行服务的地址管理：服务的发布者要向ZooKeeper
+发送请求，将自己的服务地址和函数名称等信息记录在案；服务的调用者要知道服务的相关信息，具体的机器地址在ZooKeeper查询得到。这种同步的调用机制足够直观简单，只是没有“订阅——推送”机制
 
 Dubbo是一套微服务系统的协调者，在它这套体系中，一共有三种角色，分别是：服务提供者（下面简称提供者）、服务消费者（下面简称消费者）、注册中心。
 

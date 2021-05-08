@@ -14,17 +14,18 @@
 
 # 微服务架构方案
 
-   微服务架构有4个核心问题？
-    
-    1. 服务很多，客户端怎么访问？
-    
-    2. 这么多服务？服务之间如何通信？
-    
-    3. 这么多服务？如何治理
-    
-    4. 服务挂了怎么办？
+    微服务架构一般会从两个模式中演化:
 
+    1.  一种就是一开始就是整体的应用，所有的模块都是紧耦合的。
+    2.  另外一种是面向服务的架构模式(SOA，service-oriented architecture pattern)。
 
+## 微服务架构方案实现方式
+
+  有很多实现微服务的方式。最通用最流行的三个方式是:
+
+ * API REST-based
+ * applicaiton REST-based
+ * 中心化的消息
 
 ###  微服务架构解决方案：
     SpringCloud，是一套生态，就是解决以上分布架构的4个问题, 想使用SpringCloud，必须掌握SpringBoot，因为SpringCloud是基于SpringBoot；

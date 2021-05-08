@@ -21,24 +21,24 @@
     1.  一种就是一开始就是整体的应用，所有的模块都是紧耦合的。
     2.  另外一种是面向服务的架构模式(SOA，service-oriented architecture pattern)。
 
-## 微服务架构方案实现方式
-
-微服务架构包括微服务外部通信和微服务内部通信：
-
-有很多实现微服务外部通信的方式。最通用最流行的三个方式是:
-
-* [微服务外部通信的架构方案](#微服务外部通信的架构方案)
-  * [1 API REST-based](#1-API-REST-based微服务架构方案实现方式)
-  * [2 applicaiton REST-based](#2-applicaiton-REST-based微服务架构方案实现方式)
-  * [3 中心化的消息](#3-中心化的消息微服务架构方案实现方式)
-* [微服务内部通信的架构方案](#微服务内部通信的架构方案)
-  * [1 基于HTTP协议的同步机制（REST、RPC）](#1-基于HTTP协议的同步机制)
-    * [Dubbo](https://github.com/stevenli91748/MicroService/blob/master/Dubbo/README.md)
-  * [2 基于消息队列的异步消息处理机制（AMQP-based message broker）](#2-基于消息队列的异步消息处理机制)
-    * [kafka](https://github.com/stevenli91748/Message-Server-System/tree/master/Kafka)
-    * [RabbitMQ]()
+## 微服务架构的关键问题
+   * 1 微服务架构的通信机制---微服务架构包括微服务外部通信和微服务内部通信
+       * [微服务外部通信的架构方案---有很多实现微服务外部通信的方式。最通用最流行的三个方式是](#微服务外部通信的架构方案)
+         * [1 API REST-based](#1-API-REST-based微服务架构方案实现方式)
+         * [2 applicaiton REST-based](#2-applicaiton-REST-based微服务架构方案实现方式)
+         * [3 中心化的消息](#3-中心化的消息微服务架构方案实现方式)
+       * [微服务内部通信的架构方案](#微服务内部通信的架构方案)
+         * [1 基于HTTP协议的同步机制（REST、RPC）](#1-基于HTTP协议的同步机制)
+           * [Dubbo](https://github.com/stevenli91748/MicroService/blob/master/Dubbo/README.md)
+         * [2 基于消息队列的异步消息处理机制（AMQP-based message broker）](#2-基于消息队列的异步消息处理机制)
+           * [kafka](https://github.com/stevenli91748/Message-Server-System/tree/master/Kafka)
+           * [RabbitMQ]()
+   * 2  分布式数据管理
+   *                                
 
 ## 微服务外部通信的架构方案
+
+客户端可以向micro service发起RESTful HTTP请求，但是会有这种情况发生：客户端为了完成一个业务逻辑，需要发起多个HTTP请求，从而造成系统的吞吐率下降，再加上无线网络的延迟高，会严重影响客户端的用户体验，为了解决这个问题，一般会在服务器集群前面再加一个角色：API gateway，由它负责与客户度对接，并将客户端的请求转化成对内部服务的一系列调用。这样做还有个好处是，服务升级不会影响到客户端，只需要修改API gateway即可
 
 ### 1 API REST-based微服务架构方案实现方式
 

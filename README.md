@@ -26,7 +26,7 @@
   有很多实现微服务的方式。最通用最流行的三个方式是:
 
  * [API REST-based---API REST-based 适合网站提供小规模的，自包含的服务。很多互联网网站都提供这样的服务，比如OAuth2服务](#API-REST-based微服务架构方案实现方式)
- * [applicaiton REST-based---不同于上面的架构，客户端看到的是web界面或者富客户端程序，而不是调用API。UI层独立发布，可以访问服务组件](#applicaiton REST-based微服务架构方案实现方式)
+ * [applicaiton REST-based---不同于上面的架构，客户端看到的是web界面或者富客户端程序，而不是调用API。UI层独立发布，可以访问服务组件](#applicaiton-REST-based微服务架构方案实现方式)
  * [中心化的消息---它类似前面的模式，但是使用一个轻量级的消息broker取代RESTful的服务调用。这个轻量级的broker不会执行服务的编排，传输和路由，这和SOA不同，不要把它看作SOA的简化版](#中心化的消息微服务架构方案实现方式)
 
 ### API REST-based微服务架构方案实现方式

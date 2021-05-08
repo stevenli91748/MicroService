@@ -33,8 +33,9 @@
          * [2 基于消息队列的异步消息处理机制（AMQP-based message broker）](#2-基于消息队列的异步消息处理机制)
            * [kafka](https://github.com/stevenli91748/Message-Server-System/tree/master/Kafka)
            * [RabbitMQ]()
-   * 2  分布式数据管理
-   *                                
+   * 2 分布式数据管理
+       * 处理读请求
+       * 处理更新请求                               
 
 ## 微服务外部通信的架构方案
 

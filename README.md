@@ -23,11 +23,19 @@
 
 ## 微服务架构方案实现方式
 
-  有很多实现微服务的方式。最通用最流行的三个方式是:
 
- * [1 API REST-based](#1-API-REST-based微服务架构方案实现方式)
- * [2 applicaiton REST-based](#2-applicaiton-REST-based微服务架构方案实现方式)
- * [3 中心化的消息](#3-中心化的消息微服务架构方案实现方式)
+
+有很多实现微服务外部通信的方式。最通用最流行的三个方式是:
+
+* [微服务外部通信的架构方案](#微服务外部通信的架构方案)
+  * [1 API REST-based](#1-API-REST-based微服务架构方案实现方式)
+  * [2 applicaiton REST-based](#2-applicaiton-REST-based微服务架构方案实现方式)
+  * [3 中心化的消息](#3-中心化的消息微服务架构方案实现方式)
+* [微服务内部通信的架构方案](#微服务内部通信的架构方案)
+  * [1 基于HTTP协议的同步机制（REST、RPC）](#1-基于HTTP协议的同步机制)
+  * [2 基于消息队列的异步消息处理机制（AMQP-based message broker）](#2-基于消息队列的异步消息处理机制)
+
+## 微服务外部通信的架构方案
 
 ### 1 API REST-based微服务架构方案实现方式
 
@@ -46,6 +54,16 @@
 它类似前面的模式，但是使用一个轻量级的消息broker取代RESTful的服务调用。这个轻量级的broker不会执行服务的编排，传输和路由，这和SOA不同，不要把它看作SOA的简化版
 
 <a href="https://ibb.co/g6KPRcT"><img src="https://i.ibb.co/XVR3CGs/image.png" alt="image" border="0"></a>
+
+
+## 微服务内部通信的架构方案
+
+   内部服务之间的通信方式有两种：基于HTTP协议的同步机制（REST、RPC）；基于消息队列的异步消息处理机制（AMQP-based message broker）
+
+### 1 基于HTTP协议的同步机制
+
+
+### 2 基于消息队列的异步消息处理机制
 
 
 ###  微服务架构解决方案：

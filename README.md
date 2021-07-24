@@ -388,6 +388,7 @@ item|Dubbo |Spring Cloud|
   * [微服务架构的分布式事务控制解决方案](https://www.bilibili.com/video/av82804614?from=search&seid=2930700588961193916)
   
 # 有用的参考
+  * [微服务间的调用和应用内调用有啥区别](https://juejin.cn/post/6844903825392812045)
  * [微服务调用链追踪中心搭建](https://mp.weixin.qq.com/s?__biz=MzU4ODI1MjA3NQ==&mid=2247483764&idx=1&sn=964629a4e1d42d84047986529376eb28&chksm=fdded7b0caa95ea6a038c623f8813c239e3c6cf87a6cd3818277369f6c287a6833d7826b9bdd&scene=21#wechat_redirect)
  * [微服务应用性能如何？APM监控工具来告诉你！](https://www.jianshu.com/p/6f8072a2a349)
  * [微服务调用为啥用RPC框架，http不更简单吗](https://zhuanlan.zhihu.com/p/61364466)

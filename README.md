@@ -14,10 +14,12 @@
 
 ### 微服务的关注点在能力分治，将同类型的能力聚集在一个应用中，做到功能解耦，分别演化。这里涉及到两个点：微服务内部组件间如何调用 & 微服务整体如何对外提供服务。成熟方案是通过微服务框架（如SpringCloud）的功能组件完成，如前者属于服务治理和发现（Eureka），后者通过网关（gateway）
 
+
 # [15种微服务架构框架汇总](http://dockerone.com/article/9892)
 # [Top 10 Microservices frameworks for 2020](https://medium.com/microservices-architecture/top-10-microservices-framework-for-2020-eefb5e66d1a2)
 # [基于SpringCloud微服务系统设计,5万字总结！](https://segmentfault.com/a/1190000039889988)
 # []()
+
 
 # 微服务架构方案
 
@@ -25,6 +27,19 @@
 
     1.  一种就是一开始就是整体的应用，所有的模块都是紧耦合的。单体系统时代
     2.  另外一种是面向服务的架构模式(SOA，service-oriented architecture pattern)。SOA 时代
+
+
+## 微服务网关实战
+
+* [微服务网关实战01-网关介绍](https://www.toutiao.com/a6808446597215552003/?log_from=f53faf1695dc8_1627707593158)
+* [微服务网关实战02-网关搭建](https://www.toutiao.com/a6808731146826809870/?log_from=e9c137766c14b_1627708717793)
+* [微服务网关实战03-网关请求日志及全局异常](https://www.toutiao.com/a6808833585475224076/?log_from=513da4df59178_1627708740697)
+* [微服务网关实战04-网关限流及断路](https://www.toutiao.com/a6808834000853926404/?log_from=221a8ad575ac9_1627708761297)
+* [微服务网关实战05-网关鉴权](https://www.toutiao.com/a6808842467312402955/?log_from=9d02be2f80d96_1627708784230)
+* [微服务网关实战06-网关请求客户端](https://www.toutiao.com/a6808846956186567172/?log_from=d30316fb90f93_1627708805341)
+* [微服务网关实战07-聚合服务](https://www.toutiao.com/a6808854890283008523/?log_from=ba807c27a6dc7_1627708844379)
+* [微服务网关实战08-聚合服务请求日志及断路](https://www.toutiao.com/a6808861304242045453/?log_from=5df6fd223b401_1627708870534)
+* [微服务网关实战09-聚合服务鉴权及限流](https://www.toutiao.com/a6808865734366593547/?log_from=268261052b5c7_1627708895489)
 
 ## 微服务架构的关键问题
    * 1 微服务架构的通信机制---微服务架构包括微服务外部通信和微服务内部通信

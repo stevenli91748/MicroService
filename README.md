@@ -170,6 +170,13 @@ item|Dubbo |Spring Cloud|
 * [微服务架构深度解析与最佳实践（全篇汇总）](https://xie.infoq.cn/article/d6a88dcc243146fa605b1c3bf)
 
 # 微服务例子程序
+
+#### 最全面微服务教程：SpringBoot + DDD + Apache Kafka实现最终一致性
+  *  [最全面微服务教程：SpringBoot + DDD + Apache Kafka实现最终一致性(1) ](https://www.jdon.com/56424)
+  *  [最全面微服务教程：SpringBoot + DDD + Apache Kafka实现最终一致性(1) 英文版](https://itnext.io/eventual-consistency-with-spring-for-apache-kafka-cfbbed450b5e)
+  *  [最全面微服务教程: SpringBoot + DDD + Apache Kafka实现最终一致性(2)：在Kubernetes与Istio运维微服务](https://www.jdon.com/56429)
+  *  [[最全面微服务教程: SpringBoot + DDD + Apache Kafka实现最终一致性(2)：在Kubernetes与Istio运维微服务 英文版](https://itnext.io/eventual-consistency-with-spring-for-apache-kafka-part-2-of-2-23bedd512ccf)
+
 * [Microservice Architecture with Spring Boot, Spring Cloud and Docker 例子程序](https://github.com/sqshq/piggymetrics 'This is a tutorial project, which demonstrates Microservice Architecture Pattern using Spring Boot, Spring Cloud and Docker')
  
 * [Spring Cloud 微服务(一) 什么是微服务](https://www.jianshu.com/p/2ba8c687d835)

@@ -148,8 +148,8 @@ item|Dubbo |Spring Cloud|
 [云原生应用之路——从Kubernetes到Cloud Native](https://jimmysong.io/kubernetes-handbook/cloud-native/from-kubernetes-to-cloud-native.html)|[如何基于 Spring Cloud Alibaba 构建微服务体系](https://www.kubernetes.org.cn/8373.html)|
 ---|---|
 
-[ChaosBlade x SkyWalking 微服务高可用实践](https://mp.weixin.qq.com/s/f1JdQ5ux-8yHfnVf4q3p2g)|
----|
+[ChaosBlade x SkyWalking 微服务高可用实践](https://mp.weixin.qq.com/s/f1JdQ5ux-8yHfnVf4q3p2g)|[微服务框架：如果不用Spring Boot，还可以选择谁](https://www.kubernetes.org.cn/9526.html)|
+---|---|
 
 [【项目实战】微服务多租户系统后台管理系统---基于SpringBoot2.x、SpringCloud和SpringCloudAlibaba并采用前后端分离的企业级微服务多租户系统架构](https://gitee.com/zlt2000/microservices-platform)|
 ---|

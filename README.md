@@ -19,7 +19,7 @@
 # [Top 10 Microservices frameworks for 2020](https://medium.com/microservices-architecture/top-10-microservices-framework-for-2020-eefb5e66d1a2)
 # [基于SpringCloud微服务系统设计,5万字总结！](https://segmentfault.com/a/1190000039889988)
 # [微服务的设计模式](https://www.kubernetes.org.cn/9532.html)
-
+# [SpringBoot+CQRS微服务设计模式教程 ](https://www.jdon.com/55380)
 
 # 微服务架构方案
 

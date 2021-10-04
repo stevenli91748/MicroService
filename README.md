@@ -1,5 +1,9 @@
 # [MicroService 面试](https://github.com/stevenli91748/MicroService/blob/master/interview.md)
 
+# 一个微服务的例子
+
+<a href="https://ibb.co/3pm6X2T"><img src="https://i.ibb.co/x1q9vW2/image.png" alt="image" border="0"></a>
+
 
 # 在线书籍
 
@@ -19,9 +23,6 @@
   * [3 基于服务网格：Istio的微服务架构方案 ](https://icyfenix.cn/exploration/projects/servicemesh_arch_istio.html)
   * [4 基于无服务：AWS Lambda的微服务架构方案 ](https://icyfenix.cn/exploration/projects/serverless_arch.html)
 
-# 一个微服务的例子
-
-<a href="https://ibb.co/3pm6X2T"><img src="https://i.ibb.co/x1q9vW2/image.png" alt="image" border="0"></a>
 
 
 ### 微服务的关注点在能力分治，将同类型的能力聚集在一个应用中，做到功能解耦，分别演化。这里涉及到两个点：微服务内部组件间如何调用 & 微服务整体如何对外提供服务。成熟方案是通过微服务框架（如SpringCloud）的功能组件完成，如前者属于服务治理和发现（Eureka），后者通过网关（gateway）
@@ -238,6 +239,7 @@ item|Dubbo |Spring Cloud|
   * [异步消息设计模式(常用)](https://lh3.googleusercontent.com/SLtOHnLWEHTJ1wGJeq5nmSlHfs-dNQsRyXaruuqqLVvR2h6qpq4_8R9oU7CqQFQaJ5SEwpgCUPo4D4iXfM88H3S1lKGIZ7zShPpWyQPUfC-_0QngMGPHCthFwXZWENvTbk7q6usckqxKQDv4hQrY4JXMjigkGPy3PsuDIdygf3OxfmGpJ3GmeOijGF7zZb2VojDGXXfDkxpO2oWfm6HTds3aOMlqX_YpeFTX7smPpWCFqUAR31QFDOCCtGejcphSkZB4MeTwu15de0lGGE-B-2LoAUknwSiqqePFQ1HJgxLDNeoqBoWgw-KSEKTf4SsfBXx_cD4lLJUp4Py2-lgWk32Ax-Se5Z8BAPS9AuVwWpv_xslVF0Sm3WviKED_XcteXMoV4S4SzrbmWwgw05hkD0tmKncrJQd-3keL36BYsXuRsrAghWLcCIivk7-pGjcklYtSWrvvUTvNW4BSUQIAioj1UJlXOwvFP-qofZPZUnvp98mXmlWVbMgoQHs_XZFdh1Jr0Nlafe7zWI0IV2qzfyHC-vVg7AMwv-UqHqTC2jrXkTkDkiDdcRqFQav6Q3OL5xs1znt3wFuTSFeu_iE5BUACxaAC2SjchXS4QOa7l608HKZWfXv51LJqCjHxi836bS-wRpOViZJahvRA2UB-NGwABtQVOvoYokuSbYvRiSHyphj59nlBQI9jctGQ=w1024-h640-no?authuser=0)
   * CQRS模式
     * [SpringBoot+CQRS微服务设计模式教程 ](https://www.jdon.com/55380) 
+
 # 微服务开发框架主题
   * 微服务网关
   * 微服务监控

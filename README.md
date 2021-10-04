@@ -10,9 +10,14 @@
 # 目录
 
 # 1 微服务架构设计
+  * [ 微服务网关](https://github.com/stevenli91748/MicroService/tree/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3)
 # 2 微服务分化
 # 3 微服务治理---如何能够更好地治理大规模的微服务，才是微服务落地的真正难点
-
+# 4 微服务架构方案
+  * [1 基于Spring Cloud的微服务架构方案    ](https://icyfenix.cn/exploration/projects/microservice_arch_springcloud.html)
+  * [2 基于Kubernetes的微服务架构方案 ](https://icyfenix.cn/exploration/projects/microservice_arch_kubernetes.html)
+  * [3 基于服务网格：Istio的微服务架构方案 ](https://icyfenix.cn/exploration/projects/servicemesh_arch_istio.html)
+  * [4 基于无服务：AWS Lambda的微服务架构方案 ](https://icyfenix.cn/exploration/projects/serverless_arch.html)
 
 # 一个微服务的例子
 
@@ -28,36 +33,12 @@
 # [微服务的设计模式](https://www.kubernetes.org.cn/9532.html)
 # [SpringBoot+CQRS微服务设计模式教程 ](https://www.jdon.com/55380)
 
-# 微服务架构方案
 
-   微服务架构一般会从两个模式中演化:
-     1.  一种就是一开始就是整体的应用，所有的模块都是紧耦合的。单体系统时代
-     2.  另外一种是面向服务的架构模式(SOA，service-oriented architecture pattern)。SOA 时代
   
-* [1 基于Spring Cloud的微服务架构方案    ](https://icyfenix.cn/exploration/projects/microservice_arch_springcloud.html)
-* [2 基于Kubernetes的微服务架构方案 ](https://icyfenix.cn/exploration/projects/microservice_arch_kubernetes.html)
-* [3 基于服务网格：Istio的微服务架构方案 ](https://icyfenix.cn/exploration/projects/servicemesh_arch_istio.html)
-* [4 基于无服务：AWS Lambda的微服务架构方案 ](https://icyfenix.cn/exploration/projects/serverless_arch.html)
-     
-    
-    
     
     
 
 
-## 微服务网关实战
-
-* [微服务网关实战01-网关介绍](https://www.toutiao.com/a6808446597215552003/?log_from=f53faf1695dc8_1627707593158)
-* [微服务网关实战02-网关搭建](https://www.toutiao.com/a6808731146826809870/?log_from=e9c137766c14b_1627708717793)
-* [微服务网关实战03-网关请求日志及全局异常](https://www.toutiao.com/a6808833585475224076/?log_from=513da4df59178_1627708740697)
-* [微服务网关实战04-网关限流及断路](https://www.toutiao.com/a6808834000853926404/?log_from=221a8ad575ac9_1627708761297)
-* [微服务网关实战05-网关鉴权](https://www.toutiao.com/a6808842467312402955/?log_from=9d02be2f80d96_1627708784230)
-* [微服务网关实战06-网关请求客户端](https://www.toutiao.com/a6808846956186567172/?log_from=d30316fb90f93_1627708805341)
-* [微服务网关实战07-聚合服务](https://www.toutiao.com/a6808854890283008523/?log_from=ba807c27a6dc7_1627708844379)
-* [微服务网关实战08-聚合服务请求日志及断路](https://www.toutiao.com/a6808861304242045453/?log_from=5df6fd223b401_1627708870534)
-* [微服务网关实战09-聚合服务鉴权及限流](https://www.toutiao.com/a6808865734366593547/?log_from=268261052b5c7_1627708895489)
-* [微服务网关实战10-聚合服务全局异常](https://www.toutiao.com/a6809192710474301959/?log_from=f146dbe42f8f6_1630174491420)
-* [微服务网关实战11-聚合网关总结](https://www.toutiao.com/a6809200028884664844/?log_from=7ffe60b0d9101_1630174526937)
 
 
 * ## 微服务架构的关键问题

@@ -15,7 +15,7 @@
 * [Spring Cloud微服务架构进阶---讲得非常详细](https://weread.qq.com/web/reader/c9932ea07163ff6ac993e0dkc81322c012c81e728d9d180)
 * [Spring Cloud微服务架构实战---2020](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714)
 * [Spring Cloud Alibaba微服务原理与实战---2020](https://weread.qq.com/web/reader/0f132410811e3ac57g011a6akc81322c012c81e728d9d180)
-
+* [大型企业微服务架构实践与运营---2019](https://weread.qq.com/web/reader/49b325d0717d34aa49b0645)
 
 
 

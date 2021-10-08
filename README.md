@@ -63,7 +63,11 @@
          * [2 基于消息队列的异步消息处理机制（AMQP-based message broker）](#2-基于消息队列的异步消息处理机制)
            * [kafka](https://github.com/stevenli91748/Message-Server-System/tree/master/Kafka)
            * [RabbitMQ]()
-       * [微服务之间的通信的方式 ](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1%E7%9A%84%E6%96%B9%E5%BC%8F/README.md) 
+       * [微服务之间最佳调用方式是什么](https://blog.51cto.com/u_15127651/2895828)
+       * 微服务之间的通信的方式
+         * Feign
+         * [RestTemplate ](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E4%BF%A1%E7%9A%84%E6%96%B9%E5%BC%8F/README.md)
+         * [OpenFeign](https://www.jianshu.com/p/7d45185ae7f1) 
    * 2 分布式数据管理
        * 处理读请求
        * 处理更新请求                               

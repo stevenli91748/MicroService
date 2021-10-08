@@ -64,6 +64,8 @@
            * [kafka](https://github.com/stevenli91748/Message-Server-System/tree/master/Kafka)
            * [RabbitMQ]()
        * [微服务通信的设计模式](https://blog.51cto.com/u_13609606/3118362)
+         * [微服务架构的进程间通信(RPC)](https://blog.51cto.com/u_15064630/3612514) 
+         * [微服务架构中的进程间通信](https://blog.51cto.com/u_3664660/3213999)
        * [微服务之间最佳调用方式是什么](https://blog.51cto.com/u_15127651/2895828)
        * 微服务之间的通信的方式
          * Feign

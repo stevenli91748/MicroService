@@ -63,6 +63,7 @@
          * [2 基于消息队列的异步消息处理机制（AMQP-based message broker）](#2-基于消息队列的异步消息处理机制)
            * [kafka](https://github.com/stevenli91748/Message-Server-System/tree/master/Kafka)
            * [RabbitMQ]()
+       * [微服务通信的设计模式](https://blog.51cto.com/u_13609606/3118362)
        * [微服务之间最佳调用方式是什么](https://blog.51cto.com/u_15127651/2895828)
        * 微服务之间的通信的方式
          * Feign

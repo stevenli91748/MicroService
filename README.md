@@ -431,6 +431,7 @@ item|Dubbo |Spring Cloud|
   * [微服务架构的分布式事务控制解决方案](https://www.bilibili.com/video/av82804614?from=search&seid=2930700588961193916)
   
 # 有用的参考
+ * [分布式服务架构与微服务架构概念的区别与联系是怎样的](https://www.zhihu.com/question/28253777)
  * [微服务难点：基础数据如何设计，为做到共享，我们这样做](https://www.toutiao.com/a6821112334535098893/?log_from=bd6d21d01d7a4_1630181950026)
  * [微服务间的调用和应用内调用有啥区别](https://juejin.cn/post/6844903825392812045)
  * [微服务调用链追踪中心搭建](https://mp.weixin.qq.com/s?__biz=MzU4ODI1MjA3NQ==&mid=2247483764&idx=1&sn=964629a4e1d42d84047986529376eb28&chksm=fdded7b0caa95ea6a038c623f8813c239e3c6cf87a6cd3818277369f6c287a6833d7826b9bdd&scene=21#wechat_redirect)

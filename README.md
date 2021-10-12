@@ -5,8 +5,6 @@
 <a href="https://ibb.co/3pm6X2T"><img src="https://i.ibb.co/x1q9vW2/image.png" alt="image" border="0"></a>
 
 
-[Service Mesh微服务](https://github.com/stevenli91748/MicroService/blob/master/Service%20Mesh/README.md)|
----|
 
 # 在线书籍
 
@@ -17,6 +15,16 @@
 * [Spring Cloud Alibaba微服务原理与实战---2020](https://weread.qq.com/web/reader/0f132410811e3ac57g011a6akc81322c012c81e728d9d180)
 * [大型企业微服务架构实践与运营---2019](https://weread.qq.com/web/reader/49b325d0717d34aa49b0645)
 
+---
+
+[Service Mesh微服务](https://github.com/stevenli91748/MicroService/blob/master/Service%20Mesh/README.md)|
+---|
+
+# [15种微服务架构框架汇总](http://dockerone.com/article/9892)
+# [Top 10 Microservices frameworks for 2020](https://medium.com/microservices-architecture/top-10-microservices-framework-for-2020-eefb5e66d1a2)
+# [基于SpringCloud微服务系统设计,5万字总结！](https://segmentfault.com/a/1190000039889988)
+# [微服务的设计模式](https://www.kubernetes.org.cn/9532.html)
+# [SpringBoot+CQRS微服务设计模式教程 ](https://www.jdon.com/55380)
 
 
 # 目录
@@ -24,6 +32,13 @@
 # 1 微服务架构设计
   * [微服务网关](https://github.com/stevenli91748/MicroService/tree/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3)
   * [微服务分布式配置中心组件](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E7%BB%84%E4%BB%B6/README.md)
+---参考 Spring Cloud与Docker高并发微服务架构设计实施
+  * Rest API微服务设计
+  * WebUI API微服务设计
+  * 微服务之间调用规则设计
+  * 数据最终一致性设计
+  * 分布式集群架构设计
+  * 微服务运行环境安全设计 
 # 2 微服务分化
 # 3 微服务治理---如何能够更好地治理大规模的微服务，才是微服务落地的真正难点
 # [4 微服务架构方案](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88/README.md)
@@ -37,11 +52,6 @@
 ### 微服务的关注点在能力分治，将同类型的能力聚集在一个应用中，做到功能解耦，分别演化。这里涉及到两个点：微服务内部组件间如何调用 & 微服务整体如何对外提供服务。成熟方案是通过微服务框架（如SpringCloud）的功能组件完成，如前者属于服务治理和发现（Eureka），后者通过网关（gateway）
 
 
-# [15种微服务架构框架汇总](http://dockerone.com/article/9892)
-# [Top 10 Microservices frameworks for 2020](https://medium.com/microservices-architecture/top-10-microservices-framework-for-2020-eefb5e66d1a2)
-# [基于SpringCloud微服务系统设计,5万字总结！](https://segmentfault.com/a/1190000039889988)
-# [微服务的设计模式](https://www.kubernetes.org.cn/9532.html)
-# [SpringBoot+CQRS微服务设计模式教程 ](https://www.jdon.com/55380)
 
 
   

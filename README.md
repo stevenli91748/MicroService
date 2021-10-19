@@ -18,7 +18,7 @@
 * [微服务实战：Dubbox+Spring Boot+Docker](https://weread.qq.com/web/reader/6dc322d072052f1d6dcce13kc81322c012c81e728d9d180)
 * [Spring微服务架构设计---2020](https://weread.qq.com/web/reader/9de32c5071db56e39decfc8)
 * [Kubernetes微服务实战---2020](https://weread.qq.com/web/reader/f1c32df071eeef5bf1cc214)
-
+* [分布式微服务架构： 原理与实战---2019](https://weread.qq.com/web/reader/01b3264071a4952901b85ab)
 
 ---
 

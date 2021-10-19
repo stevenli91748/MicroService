@@ -7,7 +7,7 @@
 
 
 # 在线书籍
-
+* [微服务治理：体系，架构， 实践---2020](https://weread.qq.com/web/reader/69e327a071eeeee269e177e)
 * [微服务架构基础（Spring Boot + Spring Cloud + Docker）---将编程开发，持续集成，部署运维等环节都讲到，照着本书可搭建一套运行环境，构建一个demo](https://weread.qq.com/web/reader/69532da0717d3026695636ekc81322c012c81e728d9d180)
 * [微服务分布式架构基础与实战： 基于Spring Boot + Spring Cloud](https://weread.qq.com/web/reader/f6732e8071dbddd6f674178)
 * [Spring Cloud微服务架构进阶---讲得非常详细](https://weread.qq.com/web/reader/c9932ea07163ff6ac993e0dkc81322c012c81e728d9d180)

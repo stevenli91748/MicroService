@@ -16,7 +16,7 @@
 * [大型企业微服务架构实践与运营---2019](https://weread.qq.com/web/reader/49b325d0717d34aa49b0645)
 * [名师讲坛： JAVA微服务架构实战（SpringBoot + SpringCloud + Docker + RabbitMQ）---2020 李兴华](https://weread.qq.com/web/reader/0e03209071c96a420e02710)
 * [微服务实战：Dubbox+Spring Boot+Docker](https://weread.qq.com/web/reader/6dc322d072052f1d6dcce13kc81322c012c81e728d9d180)
-* 
+* [Spring微服务架构设计---2020](https://weread.qq.com/web/reader/9de32c5071db56e39decfc8)
 ---
 
 [Service Mesh微服务](https://github.com/stevenli91748/MicroService/blob/master/Service%20Mesh/README.md)|

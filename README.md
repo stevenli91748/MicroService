@@ -34,7 +34,7 @@
 
 # 目录
 
-# 1 微服务架构设计---微服务的关注点在能力分治，将同类型的能力聚集在一个应用中，做到功能解耦，分别演化。这里涉及到两个点：微服务内部组件间如何调用 & 微服务整体如何对外提供服务。成熟方案是通过微服务框架（如SpringCloud）的功能组件完成，如前者属于服务治理和发现（Eureka），后者通过网关（gateway）
+### 1 微服务架构设计---微服务的关注点在能力分治，将同类型的能力聚集在一个应用中，做到功能解耦，分别演化。这里涉及到两个点：微服务内部组件间如何调用 & 微服务整体如何对外提供服务。成熟方案是通过微服务框架（如SpringCloud）的功能组件完成，如前者属于服务治理和发现（Eureka），后者通过网关（gateway）
   * 服务治理
     * [微服务分布式配置中心组件](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E7%BB%84%E4%BB%B6/README.md) 
   * 服务调用
@@ -52,7 +52,7 @@
   * 微服务运行环境安全设计 
  -------Spring Cloud与Docker高并发微服务架构设计实施 
   
-# [2 微服务架构方案](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88/README.md)
+### [2 微服务架构方案](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88/README.md)
   * [1 基于Spring Cloud的微服务架构方案    ](https://icyfenix.cn/exploration/projects/microservice_arch_springcloud.html)
   * [2 基于Kubernetes的微服务架构方案 ](https://icyfenix.cn/exploration/projects/microservice_arch_kubernetes.html)
   * [3 基于服务网格：Istio的微服务架构方案 ](https://icyfenix.cn/exploration/projects/servicemesh_arch_istio.html)

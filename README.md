@@ -60,7 +60,7 @@
   * [3 基于服务网格：Istio的微服务架构方案 ](https://icyfenix.cn/exploration/projects/servicemesh_arch_istio.html)
   * [4 基于无服务：AWS Lambda的微服务架构方案 ](https://icyfenix.cn/exploration/projects/serverless_arch.html)
 
-
+### [微服务设计和高并发实践](https://weread.qq.com/web/reader/2fe329c071e041322feb53dk33e3289021c33e75ff09694)
 
 
 
@@ -75,6 +75,7 @@
 
 * ## 微服务架构的关键问题
    * 1 微服务架构的通信机制---微服务架构包括微服务外部通信和微服务内部通信
+       * [微服务系统实践--远程过程调用](https://weread.qq.com/web/reader/2fe329c071e041322feb53dk02e32f0021b02e74f10ece8) 
        * [微服务外部通信的架构方案---有很多实现微服务外部通信的方式。最通用最流行的三个方式是](#微服务外部通信的架构方案)
          * [1 API REST-based](#1-API-REST-based微服务架构方案实现方式)
          * [2 applicaiton REST-based](#2-applicaiton-REST-based微服务架构方案实现方式)

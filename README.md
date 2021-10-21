@@ -43,7 +43,7 @@
   * 服务容错 
   * [服务网关](https://github.com/stevenli91748/MicroService/tree/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3)
   * 链路追踪
- 
+  * 微服务应用安全——Security
 ---参考 Spring Cloud与Docker高并发微服务架构设计实施 
 
   * Rest API微服务设计

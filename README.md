@@ -71,7 +71,8 @@
     *  高可用的基础资源支持
     *  快速响应的自动化基础设施
     *  完善的监控体系
-    *  微服务的安全保障 
+    *  微服务的安全保障
+  * [大型电商平台微服务设计入门案例](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k33e3289021c33e75ff09694)  
 
 
 ### [3 微服务架构方案](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88/README.md)

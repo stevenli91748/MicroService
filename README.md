@@ -97,6 +97,7 @@
        * [微服务系统实践--远程过程调用](https://weread.qq.com/web/reader/2fe329c071e041322feb53dk02e32f0021b02e74f10ece8) 
        * [微服务外部通信的架构方案---有很多实现微服务外部通信的方式。最通用最流行的三个方式是](#微服务外部通信的架构方案)
          * [1 API REST-based](#1-API-REST-based微服务架构方案实现方式)
+           * [API的分层调用关系](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714kb6d32b90216b6d767d2f0dc) 
          * [2 applicaiton REST-based](#2-applicaiton-REST-based微服务架构方案实现方式)
          * [3 中心化的消息](#3-中心化的消息微服务架构方案实现方式)
        * [微服务内部通信的架构方案](#微服务内部通信的架构方案)

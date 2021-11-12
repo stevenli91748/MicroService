@@ -59,6 +59,7 @@
   * 数据最终一致性设计
   * 分布式集群架构设计
   * 微服务运行环境安全设计 
+  * 
  -------Spring Cloud与Docker高并发微服务架构设计实施 
   
 ### [2 微服务架构方案](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88/README.md)

@@ -81,19 +81,9 @@
   * [3 基于服务网格：Istio的微服务架构方案 ](https://icyfenix.cn/exploration/projects/servicemesh_arch_istio.html)
   * [4 基于无服务：AWS Lambda的微服务架构方案 ](https://icyfenix.cn/exploration/projects/serverless_arch.html)
 
-
 ---
 
-
-
-  
-    
-    
-
-
-
-
-* ## 微服务架构的关键问题
+## 微服务架构的关键问题
    * 1 微服务架构的通信机制---微服务架构包括微服务外部通信和微服务内部通信， 对于通信方式来说，有些程序对实时数据很敏感，只能使用接口的方式进行实时调用；而有的程序对实时数据并没有太多要求，但是通信量很大，这时就可以使用异步消息进行调用。这样，通过有针对性的独立设计，可以最大限度地发挥应用程序的效能
        * [微服务系统实践--远程过程调用](https://weread.qq.com/web/reader/2fe329c071e041322feb53dk02e32f0021b02e74f10ece8) 
        * [微服务外部通信的架构方案---有很多实现微服务外部通信的方式。最通用最流行的三个方式是](#微服务外部通信的架构方案)
@@ -118,7 +108,10 @@
          * [OpenFeign](https://www.jianshu.com/p/7d45185ae7f1) 
    * 2 分布式数据管理
        * 处理读请求
-       * 处理更新请求                               
+       * 处理更新请求
+   * [3 微服务稳定性保证的常用手段](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dak341323f021e34173cb3824c)
+   * [4 微服务下如何保证事务的一致性](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dake3632bd0222e369853df322)
+   * [5 微服务编排](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dak17e328b022b17e62166fad4)
 
 ## 微服务外部通信的架构方案
 

@@ -54,28 +54,24 @@
   * 服务治理
     * [注册中心的设计与实现](https://github.com/aCoder2013/blog/issues/32) 
     * [微服务分布式配置中心组件](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E7%BB%84%E4%BB%B6/README.md) 
-  * 服务调用
-  * 服务容错 
-  * [服务网关](https://github.com/stevenli91748/MicroService/tree/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3)
-  * 链路追踪
+    * 服务调用
+    * 服务容错 
+    * [服务网关](https://github.com/stevenli91748/MicroService/tree/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3)
+    * 链路追踪
   * 微服务应用安全——Security
   * 微服务之分布式事务解决方案
     * [Seata 分布式事务](https://github.com/stevenli91748/JAVA-Architecture/blob/master/JAVA%20Framework/Spring%20Cloud/Spring%20Cloud%20Alibaba%E5%A5%97%E4%BB%B6/Seata.md)
     * [亿级流量架构之分布式事务思路及方法](https://www.cnblogs.com/Courage129/p/14433462.html)
     * [亿级流量架构之分布式事务解决方案对比](https://www.cnblogs.com/Courage129/p/14443653.html) 
     * [微服务分布式事务之LCN、TCC特点、事务补偿机制缘由以及设计重点](https://www.cnblogs.com/Courage129/p/14528981.html)
-
----参考 Spring Cloud与Docker高并发微服务架构设计实施 
-
-  * Rest API微服务设计
+    * [微服务下如何保证事务的一致性](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dake3632bd0222e369853df322)
+  * Rest API微服务设计   ------Spring Cloud与Docker高并发微服务架构设计实施 
   * WebUI API微服务设计
   * 微服务之间调用规则设计
   * 数据最终一致性设计
   * 分布式集群架构设计
   * 微服务运行环境安全设计 
-  * 
- -------Spring Cloud与Docker高并发微服务架构设计实施 
-### 2 微服务设计 
+ ### 2 微服务设计 
   * [微服务设计和高并发实践](https://weread.qq.com/web/reader/2fe329c071e041322feb53dk33e3289021c33e75ff09694)
   * [高并发微服务架构设计](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k70e32fb021170efdf2eca12)
     *  自然的压力分解
@@ -87,8 +83,6 @@
     *  完善的监控体系
     *  微服务的安全保障
   * [大型电商平台微服务设计入门案例](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k33e3289021c33e75ff09694)  
-
-
 ### [3 微服务架构方案](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88/README.md)
   * [1 基于Spring Cloud的微服务架构方案    ](https://icyfenix.cn/exploration/projects/microservice_arch_springcloud.html)
   * [2 基于Kubernetes的微服务架构方案 ](https://icyfenix.cn/exploration/projects/microservice_arch_kubernetes.html)

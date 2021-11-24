@@ -65,6 +65,7 @@
     * [亿级流量架构之分布式事务解决方案对比](https://www.cnblogs.com/Courage129/p/14443653.html) 
     * [微服务分布式事务之LCN、TCC特点、事务补偿机制缘由以及设计重点](https://www.cnblogs.com/Courage129/p/14528981.html)
     * [微服务下如何保证事务的一致性](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dake3632bd0222e369853df322)
+      * Apache RocketMQ--RocketMQ事务消息中间件主要解决了生产者端的消息发送与本地事务执行的原子性问题
   * Rest API微服务设计   ------Spring Cloud与Docker高并发微服务架构设计实施 
   * WebUI API微服务设计
   * 微服务之间调用规则设计

@@ -22,7 +22,7 @@
 # [基于SpringCloud微服务系统设计,5万字总结！](https://segmentfault.com/a/1190000039889988)
 # [微服务的设计模式](https://www.kubernetes.org.cn/9532.html)
 # [SpringBoot+CQRS微服务设计模式教程 ](https://www.jdon.com/55380)
-
+# [一张图看懂微服务架构路线](https://www.kubernetes.org.cn/9711.html)
 
 # 在线书籍
 * [微服务治理：体系，架构， 实践---2020](https://weread.qq.com/web/reader/69e327a071eeeee269e177e)

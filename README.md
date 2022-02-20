@@ -72,7 +72,8 @@
   * 数据最终一致性设计
   * 分布式集群架构设计
   * 微服务运行环境安全设计 
- ### 2 微服务设计 
+ ### 2 微服务设计
+  * [微服务如何聚合Swagger实现接口文档管理](https://developer.51cto.com/article/701318.html)
   * [微服务设计和高并发实践](https://weread.qq.com/web/reader/2fe329c071e041322feb53dk33e3289021c33e75ff09694)
   * [高并发微服务架构设计](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k70e32fb021170efdf2eca12)
     *  自然的压力分解

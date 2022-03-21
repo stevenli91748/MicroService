@@ -25,6 +25,7 @@
 # [一张图看懂微服务架构路线](https://www.kubernetes.org.cn/9711.html)
 
 # 在线书籍
+* [ 微服务容器化开发实战](https://weread.qq.com/web/reader/ce432f4072096ae2ce4d388)
 * [微服务治理：体系，架构， 实践---2020](https://weread.qq.com/web/reader/69e327a071eeeee269e177e)
 * [微服务架构基础（Spring Boot + Spring Cloud + Docker）---将编程开发，持续集成，部署运维等环节都讲到，照着本书可搭建一套运行环境，构建一个demo](https://weread.qq.com/web/reader/69532da0717d3026695636ekc81322c012c81e728d9d180)
 * [微服务分布式架构基础与实战： 基于Spring Boot + Spring Cloud](https://weread.qq.com/web/reader/f6732e8071dbddd6f674178)

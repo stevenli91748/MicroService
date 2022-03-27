@@ -39,6 +39,7 @@
 * [Kubernetes微服务实战---2020](https://weread.qq.com/web/reader/f1c32df071eeef5bf1cc214)
 * [分布式微服务架构： 原理与实战---2019](https://weread.qq.com/web/reader/01b3264071a4952901b85ab)
 * [微服务分布式架构开发实战](https://weread.qq.com/web/reader/d19329f0715a41a7d19438bkc81322c012c81e728d9d180)
+* [Spring Cloud Alibaba微服务原理与实战](https://weread.qq.com/web/reader/0f132410811e3ac57g011a6a)
 ---
 
 # [微服务例子](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%BE%8B%E5%AD%90/README.md)

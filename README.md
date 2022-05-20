@@ -54,56 +54,57 @@
 
 ### 1 微服务架构设计---微服务的关注点在能力分治，将同类型的能力聚集在一个应用中，做到功能解耦，分别演化。这里涉及到两个点：微服务内部组件间如何调用 & 微服务整体如何对外提供服务。成熟方案是通过微服务框架（如SpringCloud）的功能组件完成，如前者属于服务治理和发现（Eureka），后者通过网关（gateway）
   
-  
- * [ 微服务领域驱动设计](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dakc7432af0210c74d97b01b1c)
- * 分布式微服务架构中出现的问题 
-   * 服务的注册发现
-   * 跟踪治理
-     * [注册中心的设计与实现](https://github.com/aCoder2013/blog/issues/32) 
-     * [微服务分布式配置中心组件](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E7%BB%84%E4%BB%B6/README.md) 
-     * 服务调用
-     * 服务容错 
-     * [服务网关](https://github.com/stevenli91748/MicroService/tree/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3)
-     * 链路追踪
-   * 负载均衡
-   * 故障隔离
-   * 服务间远程调用
-   * 传输通信
-   * 伸缩扩展
-   * 微服务应用安全——Security
-     * 微服务认证授权 
-   * 微服务之分布式事务解决方案
-     * [Seata 分布式事务](https://github.com/stevenli91748/JAVA-Architecture/blob/master/JAVA%20Framework/Spring%20Cloud/Spring%20Cloud%20Alibaba%E5%A5%97%E4%BB%B6/Seata.md)
-     * [亿级流量架构之分布式事务思路及方法](https://www.cnblogs.com/Courage129/p/14433462.html)
-     * [亿级流量架构之分布式事务解决方案对比](https://www.cnblogs.com/Courage129/p/14443653.html) 
-     * [微服务分布式事务之LCN、TCC特点、事务补偿机制缘由以及设计重点](https://www.cnblogs.com/Courage129/p/14528981.html)
-     * [微服务下如何保证事务的一致性](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dake3632bd0222e369853df322)
-       * Apache RocketMQ--RocketMQ事务消息中间件主要解决了生产者端的消息发送与本地事务执行的原子性问题
-  * Rest API微服务设计   ------Spring Cloud与Docker高并发微服务架构设计实施 
-  * WebUI API微服务设计
-  * 微服务之间调用规则设计
-  * 数据最终一致性设计
-  * 分布式集群架构设计
-  * 微服务运行环境安全设计 
- ### 2 微服务设计
-  * [微服务如何聚合Swagger实现接口文档管理](https://developer.51cto.com/article/701318.html)
-  * [微服务设计和高并发实践](https://weread.qq.com/web/reader/2fe329c071e041322feb53dk33e3289021c33e75ff09694)
-  * [高并发微服务架构设计](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k70e32fb021170efdf2eca12)
-    *  自然的压力分解
-    *  可弹性伸缩的集群环境
-    *  高度的独立性设计
-    *  API的分层调用关系
-    *  高可用的基础资源支持
-    *  快速响应的自动化基础设施
-    *  完善的监控体系
-    *  微服务的安全保障
-  * [大型电商平台微服务设计入门案例](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k33e3289021c33e75ff09694)  
-### [3 微服务架构方案](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88/README.md)
-  * [1 基于Spring Cloud的微服务架构方案    ](https://icyfenix.cn/exploration/projects/microservice_arch_springcloud.html)
-  * [2 基于Kubernetes的微服务架构方案 ](https://icyfenix.cn/exploration/projects/microservice_arch_kubernetes.html)
-  * [3 基于服务网格：Istio的微服务架构方案 ](https://icyfenix.cn/exploration/projects/servicemesh_arch_istio.html)
-  * [4 基于无服务：AWS Lambda的微服务架构方案 ](https://icyfenix.cn/exploration/projects/serverless_arch.html)
-
+ * 微服务时代----采用软件层面独力应对微服务架构问题
+   * [ 微服务领域驱动设计](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dakc7432af0210c74d97b01b1c)
+   * 分布式微服务架构中需要解决的问题 
+     * 服务的注册发现
+     * 跟踪治理
+       * [注册中心的设计与实现](https://github.com/aCoder2013/blog/issues/32) 
+       * [微服务分布式配置中心组件](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E7%BB%84%E4%BB%B6/README.md) 
+       * 服务调用
+       * 服务容错 
+       * [服务网关](https://github.com/stevenli91748/MicroService/tree/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3)
+       * 链路追踪
+     * 负载均衡
+     * 故障隔离
+     * 服务间远程调用
+     * 传输通信
+     * 伸缩扩展
+     * 微服务应用安全——Security
+       * 微服务认证授权 
+     * 微服务之分布式事务解决方案
+       * [Seata 分布式事务](https://github.com/stevenli91748/JAVA-Architecture/blob/master/JAVA%20Framework/Spring%20Cloud/Spring%20Cloud%20Alibaba%E5%A5%97%E4%BB%B6/Seata.md)
+       * [亿级流量架构之分布式事务思路及方法](https://www.cnblogs.com/Courage129/p/14433462.html)
+       * [亿级流量架构之分布式事务解决方案对比](https://www.cnblogs.com/Courage129/p/14443653.html) 
+       * [微服务分布式事务之LCN、TCC特点、事务补偿机制缘由以及设计重点](https://www.cnblogs.com/Courage129/p/14528981.html)
+       * [微服务下如何保证事务的一致性](https://weread.qq.com/web/reader/d9e327a07188b377d9eb7dake3632bd0222e369853df322)
+         * Apache RocketMQ--RocketMQ事务消息中间件主要解决了生产者端的消息发送与本地事务执行的原子性问题
+    * Rest API微服务设计   ------Spring Cloud与Docker高并发微服务架构设计实施 
+    * WebUI API微服务设计
+    * 微服务之间调用规则设计
+    * 数据最终一致性设计
+    * 分布式集群架构设计
+    * 微服务运行环境安全设计 
+   ### 2 微服务设计
+    * [微服务如何聚合Swagger实现接口文档管理](https://developer.51cto.com/article/701318.html)
+    * [微服务设计和高并发实践](https://weread.qq.com/web/reader/2fe329c071e041322feb53dk33e3289021c33e75ff09694)
+    * [高并发微服务架构设计](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k70e32fb021170efdf2eca12)
+      *  自然的压力分解
+      *  可弹性伸缩的集群环境
+      *  高度的独立性设计
+      *  API的分层调用关系
+      *  高可用的基础资源支持
+      *  快速响应的自动化基础设施
+      *  完善的监控体系
+      *  微服务的安全保障
+    * [大型电商平台微服务设计入门案例](https://weread.qq.com/web/reader/ca932ea071d7c798ca9a714k33e3289021c33e75ff09694)  
+  ### [3 微服务架构方案](https://github.com/stevenli91748/MicroService/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88/README.md)
+    * [1 基于Spring Cloud的微服务架构方案    ](https://icyfenix.cn/exploration/projects/microservice_arch_springcloud.html)
+    * [2 基于Kubernetes的微服务架构方案 ](https://icyfenix.cn/exploration/projects/microservice_arch_kubernetes.html)
+    * [3 基于服务网格：Istio的微服务架构方案 ](https://icyfenix.cn/exploration/projects/servicemesh_arch_istio.html)
+    * [4 基于无服务：AWS Lambda的微服务架构方案 ](https://icyfenix.cn/exploration/projects/serverless_arch.html)
+* 后微服务时代---从软件层面独力应对微服务架构问题，发展到软、硬一体，合力应对架构问题的时代，此即为“后微服务时代”
+  * 伸缩扩展对应的硬件解决方案   
 ---
 
 ## 微服务架构的关键问题

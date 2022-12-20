@@ -7,7 +7,7 @@
 * [Service Mesh 微服务架构设计---2019](https://weread.qq.com/web/reader/42932ba07195510b429d842kc81322c012c81e728d9d180)
 
 
-[Service Mesh实战--马若飞](https://www.youtube.com/watch?v=VAKotZT8SMI&list=PLo0iJFLQIBEaqom6wvP9qsSJQalc2TkaQ&index=1)|
+[Service Mesh实战视频--马若飞](https://www.youtube.com/watch?v=VAKotZT8SMI&list=PLo0iJFLQIBEaqom6wvP9qsSJQalc2TkaQ&index=1)|
 ---|
 
 
@@ -20,6 +20,7 @@
   * 可观察性
 
 # 参考
+* [Pattern: Service Mesh---非常著名的文章](https://philcalcado.com/2017/08/03/pattern_service_mesh.html)
 * [一文让你彻底弄懂ServiceMesh](https://zhuanlan.zhihu.com/p/153105848)
 * [万字长文：Service Mesh · Istio · 以实践入门](https://mp.weixin.qq.com/s/xbC5UF_v4C2NyWyRo3NuvA)
 * [走进Service mesh ](https://github.com/aCoder2013/blog/issues/15)

@@ -20,7 +20,7 @@
   * 可观察性
 
 # 参考
-* [Pattern: Service Mesh---非常著名的文章](https://philcalcado.com/2017/08/03/pattern_service_mesh.html)
+* [Pattern: Service Mesh---非常著名的文章，在学习Service Mesh过程中非常重要](https://philcalcado.com/2017/08/03/pattern_service_mesh.html)
 * [一文让你彻底弄懂ServiceMesh](https://zhuanlan.zhihu.com/p/153105848)
 * [万字长文：Service Mesh · Istio · 以实践入门](https://mp.weixin.qq.com/s/xbC5UF_v4C2NyWyRo3NuvA)
 * [走进Service mesh ](https://github.com/aCoder2013/blog/issues/15)
